@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['15', '16', '17', '18', '19', '20', '21', '22', '23']
+
+roboflow:
+  workspace: hand-b5jyo
+  project: hand-k2klu
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/hand-b5jyo/hand-k2klu/dataset/3
